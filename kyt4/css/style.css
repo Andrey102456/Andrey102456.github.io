@@ -1,0 +1,37 @@
+teg {
+    свойства: значение;
+}
+
+body {
+	background: linear-gradient(#3494e6,#ec6ead); 
+min-height: 100;
+	font-size: 20px; 
+	font-family: fantasy;
+}
+.content { 
+   background: rgb(255, 255, 255);
+   width: 750px;
+   margin: 0 auto;
+   text-align: center;
+ }
+}
+.Dzen__content {
+	width: 500px;
+  border: 10px solid #0f5596;
+  transition: 1s;
+}
+.Dzen__content:hover{
+	border-radius: 20%;
+}
+a.button {
+  background: rgb(21, 190, 228);
+  text-decoration: none;
+  transition: 1s;
+}
+a.button:hover{
+  background: rgb(237, 14, 14);
+}
+a.button:active{
+  background: rgb(255, 255, 255);
+  transition: 1s;
+} 
