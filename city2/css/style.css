@@ -1,0 +1,50 @@
+teg {
+    свойства: значение;
+}
+
+body {
+	background:url("../img/1.jpg");
+
+	font-size: 20px; 
+	font-family: luminari;
+}
+.content { 
+   background: rgb(255, 255, 255);
+   width: 800px;
+   margin: 0 auto;
+   text-align: center;
+ }
+hr{
+  height: 3px;
+  background:  rgb(0, 0, 0);;
+}
+.Dzen__content {
+	width: 500px;
+  border: 10px solid #3c3c3c;
+  transition: 2s;
+}
+.text1{
+  text-align: left;
+  margin-left: 5px;
+}
+.Dzen__content:hover{
+	border-radius: 20%;
+}
+a.button {
+  background: rgb(73, 73, 73);
+  text-decoration: none;
+  transition: 1s;
+  color: #ffffff;
+  border: 5px solid  rgb(73, 73, 73);
+  padding-top: 3px;
+}
+a.button:hover{
+  background: white;
+  color: #000000;
+}
+a.button:active{
+  background: rgb(0, 0, 0);
+  transition: 1s;
+} 
+
+ 
