@@ -3,48 +3,35 @@ teg {
 }
 
 body {
-	background:url("../img/1.jpg");
-
+	background: linear-gradient(#3494e6,#ec6ead); 
+min-height: 100;
 	font-size: 20px; 
-	font-family: luminari;
+	font-family: fantasy;
 }
 .content { 
    background: rgb(255, 255, 255);
-   width: 800px;
+   width: 750px;
    margin: 0 auto;
    text-align: center;
  }
-hr{
-  height: 3px;
-  background:  rgb(0, 0, 0);;
 }
 .Dzen__content {
 	width: 500px;
-  border: 10px solid #3c3c3c;
-  transition: 2s;
-}
-.text1{
-  text-align: left;
-  margin-left: 5px;
+  border: 10px solid #0f5596;
+  transition: 1s;
 }
 .Dzen__content:hover{
 	border-radius: 20%;
 }
 a.button {
-  background: rgb(73, 73, 73);
+  background: rgb(21, 190, 228);
   text-decoration: none;
   transition: 1s;
-  color: #ffffff;
-  border: 5px solid  rgb(73, 73, 73);
-  padding-top: 3px;
 }
 a.button:hover{
-  background: white;
-  color: #000000;
+  background: rgb(237, 14, 14);
 }
 a.button:active{
-  background: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
   transition: 1s;
 } 
-
- 
